@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="cepGen:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/cepGen_jar</output-path>
+    <root id="archive" name="cepGen.jar">
+      <element id="module-output" name="cepGen" />
+      <element id="extracted-dir" path="C:/ct/protobuf-java-2.6.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/commons-math3-3.6.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,5 @@
+<machines>
+    <machine><name>m1</name><ip>1212ed</ip><port>12</port><eventfiles>normal</eventfiles></machine>
+    <machine><name>m2</name><ip>33.efw</ip><port>34</port><eventfiles>normal</eventfiles></machine>
+    <machine><name>m3</name><ip>434.242</ip><port>55555</port><eventfiles>normal</eventfiles></machine>
+</machines>

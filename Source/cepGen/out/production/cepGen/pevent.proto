@@ -1,0 +1,12 @@
+
+message event {
+  required string name = 1;
+  repeated item items = 2;
+}
+
+message item {
+  required string key = 1;
+  required string value = 2;
+}
+
+

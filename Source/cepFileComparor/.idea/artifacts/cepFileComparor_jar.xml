@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="cepFileComparor:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/cepFileComparor_jar</output-path>
+    <root id="archive" name="cepFileComparor.jar">
+      <element id="module-output" name="cepFileComparor" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/commons-collections4-4.1/commons-collections4-4.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

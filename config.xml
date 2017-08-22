@@ -1,0 +1,18 @@
+<config>
+<version>1</version>
+<istimestamp>true</istimestamp>
+<unit>mili</unit>
+<serializer>protobuf</serializer>
+<serializerVersion>1</serializerVersion>
+<eventtype>
+<name>event1</name>
+<rate>1000.0</rate>
+<dispatchtype>normal</dispatchtype>
+<machines>
+<machine><name>m1</name><percentage>100.0</percentage></machine>
+</machines>
+<attributes>
+<attribute><name>att</name><distribution>normal 10 20</distribution></attribute>
+</attributes>
+</eventtype>
+</config>

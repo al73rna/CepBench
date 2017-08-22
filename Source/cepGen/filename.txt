@@ -1,0 +1,14 @@
+<eventtype>
+<name>e1</name>
+<rate>44.0</rate>
+<dispatchtype>Normal</dispatchtype>
+<machines>
+<machine><name>m1</name><percentage>44.0</percentage></machine>
+<machine><name>m1</name><percentage>445.0</percentage></machine>
+</machines>
+<attributes>
+<attribute><name>att</name><distribution>normal 111 222</distribution></attribute>
+<attribute><name>att</name><distribution>logistic 111 222</distribution></attribute>
+<attribute><name>att</name><distribution>triangular 111 222 333</distribution></attribute>
+</attributes>
+</eventtype>

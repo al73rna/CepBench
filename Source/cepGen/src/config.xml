@@ -1,0 +1,49 @@
+<config>
+
+    <version>1</version>
+    <istimestamp>false</istimestamp>
+    <unit>mili</unit>
+    <serializer>protobuf</serializer>
+    <serializerVersion>1</serializerVersion>
+    <eventtype>
+        <name>e1</name>
+        <rate>2</rate>
+        <dispatchtype>percentage</dispatchtype>
+        <machines>
+            <machine><name>m1</name><percentage>90</percentage></machine>
+            <machine><name>m2</name><percentage>10</percentage></machine>
+            <machine><name>m3</name><percentage>0</percentage></machine>
+        </machines>
+        <attributes>
+            <attribute><name>att1</name><distribution>normal 10 1</distribution></attribute>
+            <attribute><name>att2</name><distribution>normal 20 2</distribution></attribute>
+            <attribute><name>att3</name><distribution>normal 30 3</distribution></attribute>
+        </attributes>
+
+    </eventtype>
+
+
+    <eventtype>
+        <name>e2</name>
+        <rate>1</rate>
+        <dispatchtype>percentage</dispatchtype>
+        <machines>
+            <machine><name>m1</name><percentage>50</percentage></machine>
+            <machine><name>m2</name><percentage>50</percentage></machine>
+            <machine><name>m3</name><percentage>0</percentage></machine>
+        </machines>
+        <attributes>
+            <attribute><name>att4</name><distribution>normal 40 4</distribution></attribute>
+            <attribute><name>att5</name><distribution>normal 50 5</distribution></attribute>
+            <attribute><name>att6</name><distribution>normal 60 6</distribution></attribute>
+        </attributes>
+
+    </eventtype>
+
+
+
+
+
+
+
+</config>
